@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #eff2f5;
+}
+
+#root {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    body {
+        margin: 1rem;
+        font-family: "Inter", sans-serif;
+        background-color: white;
+    }
+
+    #root {
+        width: 100%;
+        padding: 0;
+    }
+}
